@@ -1,9 +1,11 @@
+import {Simpsons} from "./componenst/Simpsons/Simpsons";
+
 const App = () => {
-  return (
-      <div>
-        App
-      </div>
-  );
+    return (
+        <div>
+            <Simpsons/>
+        </div>
+    );
 };
 
 export default App;
