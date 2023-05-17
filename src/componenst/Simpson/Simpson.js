@@ -3,11 +3,12 @@ const Simpson = ({simpson}) => {
     return (
         <div>
             <div>id: {id}</div>
-            <div>name: {name}</div>
+            <h2>name: {name}</h2>
             <div>surname: {surname}</div>
             <div>age: {age}</div>
             <p>{info}</p>
             <img src={photo} alt={name}/>
+            <hr/>
         </div>
     );
 };
